@@ -41,8 +41,8 @@ Explanation: 2 does not exist in nums so return -1
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20.5 MB (beats 35.64%)  
-**Submitted:** 2026-08-13T05:44:51.729Z  
+**Memory:** 20.2 MB (beats 99.90%)  
+**Submitted:** 2026-08-13T05:47:58.398Z  
 
 ```py
 class Solution:

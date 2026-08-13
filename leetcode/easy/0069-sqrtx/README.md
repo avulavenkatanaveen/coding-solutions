@@ -39,9 +39,9 @@ Explanation: The square root of 8 is 2.82842..., and since we round it down to t
 ## Solution
 
 **Language:** Python  
-**Runtime:** 4 ms (beats 44.26%)  
-**Memory:** 19.3 MB (beats 56.97%)  
-**Submitted:** 2026-08-13T06:19:04.559Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.4 MB (beats 22.71%)  
+**Submitted:** 2026-08-13T06:29:16.664Z  
 
 ```py
 class Solution:

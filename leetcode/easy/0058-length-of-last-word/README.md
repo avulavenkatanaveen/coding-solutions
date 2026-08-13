@@ -49,8 +49,8 @@ Explanation: The last word is "joyboy" with length 6.
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 52.45%)  
-**Submitted:** 2026-08-12T05:47:27.190Z  
+**Memory:** 19.2 MB (beats 52.34%)  
+**Submitted:** 2026-08-13T07:58:47.815Z  
 
 ```py
 class Solution:

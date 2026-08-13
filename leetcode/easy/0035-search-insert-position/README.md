@@ -47,8 +47,8 @@ Output: 4
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20.1 MB (beats 11.36%)  
-**Submitted:** 2026-08-13T06:03:49.223Z  
+**Memory:** 19.9 MB (beats 43.13%)  
+**Submitted:** 2026-08-13T06:35:45.626Z  
 
 ```py
 class Solution:

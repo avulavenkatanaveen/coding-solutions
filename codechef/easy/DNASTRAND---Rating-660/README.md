@@ -69,7 +69,7 @@ ATG
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-13T13:55:11.261Z  
+**Submitted:** 2026-08-13T13:56:14.569Z  
 
 ```py
 t=int(input())

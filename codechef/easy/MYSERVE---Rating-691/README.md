@@ -67,13 +67,13 @@ Bob
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-18T15:07:33.607Z  
+**Submitted:** 2026-08-18T15:10:20.866Z  
 
 ```py
 t=int(input())
 for _ in range(t):
     p,q=map(int,input().split())
-    if p==q:
+    if ((p+q)//2)%2==0:
         print("Alice")
     else:
         print("Bob")

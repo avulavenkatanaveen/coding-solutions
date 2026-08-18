@@ -1,5 +1,7 @@
 t=int(input())
 for _ in range(t):
-    x,y=map(int,input().split())
-    c=(x//y)
-    print(c)
+    p,q=map(int,input().split())
+    if p==q:
+        print("Alice")
+    else:
+        print("Bob")

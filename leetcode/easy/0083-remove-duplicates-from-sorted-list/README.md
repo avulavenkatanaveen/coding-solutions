@@ -35,9 +35,9 @@ Output: [1,2,3]
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-08-18T15:01:23.217Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 19.2 MB (beats 70.18%)  
+**Submitted:** 2026-08-18T15:01:28.580Z  
 
 ```py
 # Definition for singly-linked list.

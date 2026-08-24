@@ -37,9 +37,9 @@ Explanation: "leeto" did not occur in "leetcode", so we return -1.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.1 MB  
-**Submitted:** 2026-08-24T08:09:25.300Z  
+**Runtime:** 4 ms (beats 8.72%)  
+**Memory:** 19.2 MB (beats 61.59%)  
+**Submitted:** 2026-08-24T08:09:32.882Z  
 
 ```py
 class Solution:

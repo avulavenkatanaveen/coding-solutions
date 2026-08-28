@@ -51,14 +51,14 @@ YES
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-28T16:35:50.266Z  
+**Submitted:** 2026-08-28T16:37:56.921Z  
 
 ```py
 # cook your dish here
 t=int(input())
 for _ in range(t):
     x,y,d=map(int,input().split())
-    a=x-y
+    a=abs(x-y)
     if a<=d:
         print("YES")
     else:

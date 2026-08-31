@@ -37,9 +37,9 @@ Explanation: [1,null,3] and [3,1] are both height-balanced BSTs.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 23 MB (beats 19.31%)  
-**Submitted:** 2026-08-31T08:59:42.349Z  
+**Runtime:** 5 ms (beats 15.79%)  
+**Memory:** 22.9 MB (beats 56.08%)  
+**Submitted:** 2026-08-31T09:01:20.691Z  
 
 ```cpp
 class Solution {
@@ -50,13 +50,13 @@ public:
     }
 
     TreeNode* createBST(vector<int>& nums, int low, int high) {
-        if (low > high) return nullptr;
+        if (low>high) return nullptr;
 
-        int mid = (low + high) / 2;
-        TreeNode* root = new TreeNode(nums[mid]);
+        int mid=(low+high)/2;
+        TreeNode*root=new TreeNode(nums[mid]);
 
-        root->left = createBST(nums, low, mid - 1);
-        root->right = createBST(nums, mid + 1, high);
+        root->left=createBST(nums,low,mid-1);
+        root->right=createBST(nums,mid+1,high);
 
         return root;
     }

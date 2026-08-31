@@ -39,14 +39,14 @@ Since 5 is not divisible by 4 hence, its value is decreased by 1.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-31T07:57:40.590Z  
+**Submitted:** 2026-08-31T07:58:36.734Z  
 
 ```py
 # cook your dish here
 n=int(input())
 c=0
 if n%4==0:
-    c+=1
+    c=n+1
     print(c)
 else:
     c=n-1

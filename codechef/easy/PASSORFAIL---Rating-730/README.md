@@ -58,13 +58,18 @@ FAIL
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T06:07:40.625Z  
+**Submitted:** 2026-09-03T06:14:04.584Z  
 
 ```py
 # cook your dish here
 t=int(input())
 for _ in range(t):
     n,x,p=map(int,input().split())
+    a=x*3
+    b=n-x
+    c=a-b
+    if c>=p:
+        print("")
     
 ```
 

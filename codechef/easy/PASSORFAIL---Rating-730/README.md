@@ -58,7 +58,7 @@ FAIL
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-03T06:14:04.584Z  
+**Submitted:** 2026-09-03T06:14:19.581Z  
 
 ```py
 # cook your dish here
@@ -69,6 +69,8 @@ for _ in range(t):
     b=n-x
     c=a-b
     if c>=p:
+        print("PASS")
+    else:
         print("")
     
 ```

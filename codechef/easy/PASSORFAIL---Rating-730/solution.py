@@ -8,5 +8,5 @@ for _ in range(t):
     if c>=p:
         print("PASS")
     else:
-        print("")
+        print("FAIL")
     

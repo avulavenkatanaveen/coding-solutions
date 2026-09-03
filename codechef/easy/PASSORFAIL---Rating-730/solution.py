@@ -6,5 +6,7 @@ for _ in range(t):
     b=n-x
     c=a-b
     if c>=p:
+        print("PASS")
+    else:
         print("")
     

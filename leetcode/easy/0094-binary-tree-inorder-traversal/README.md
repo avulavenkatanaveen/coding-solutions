@@ -51,8 +51,8 @@ Given the `root` of a binary tree, return  *the inorder traversal of its nodes' 
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.4 MB (beats 27.90%)  
-**Submitted:** 2026-09-01T15:30:45.218Z  
+**Memory:** 19.4 MB (beats 28.12%)  
+**Submitted:** 2026-09-04T12:19:20.769Z  
 
 ```py
 # Definition for a binary tree node.

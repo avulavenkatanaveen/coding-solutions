@@ -49,21 +49,42 @@ Output: [-1,-1]
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20.4 MB (beats 91.17%)  
-**Submitted:** 2026-09-07T08:04:30.127Z  
+**Memory:** 20.5 MB (beats 91.17%)  
+**Submitted:** 2026-09-07T08:21:17.594Z  
 
 ```py
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
-        first=-1
-        last=-1
-        for i in range(len(nums)):
-            if nums[i]==target:
-                if first==-1:
-                    first=i
-                last=i
-        return [first,last]
-        
+        def findfirst(nums,target):
+            low=0
+            high=len(nums)-1
+            first=-1
+            while low<=high:
+                mid=(low+high)//2
+                if nums[mid]==target:
+                    first=mid
+                    high=mid-1
+                elif nums[mid]<target:
+                    low=mid+1
+                else:
+                    high=mid-1
+            return first
+        def findlast(nums,target):
+            low=0
+            high=len(nums)-1
+            last=-1
+            while low<=high:
+                mid=(low+high)//2
+                if nums[mid]==target:
+                    last=mid
+                    low=mid+1
+                elif nums[mid]<target:
+                    low=mid+1
+                else:
+                    high=mid-1
+            return last
+
+        return [findfirst(nums,target),findlast(nums,target)]
 ```
 
 ---

@@ -62,8 +62,8 @@ Given an array `nums` containing `n` distinct numbers in the range `[0, n]`, ret
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20.5 MB (beats 18.97%)  
-**Submitted:** 2026-09-03T06:05:59.270Z  
+**Memory:** 20.4 MB (beats 75.47%)  
+**Submitted:** 2026-09-09T06:05:01.000Z  
 
 ```py
 class Solution:

@@ -62,16 +62,16 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 **Language:** Python  
-**Runtime:** 3 ms (beats 44.33%)  
-**Memory:** 20.5 MB (beats 42.79%)  
-**Submitted:** 2026-09-10T06:01:35.994Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 20.4 MB (beats 79.16%)  
+**Submitted:** 2026-09-10T06:14:16.371Z  
 
 ```py
 class Solution:
     def removeDuplicates(self, nums):
         k=1
         for i in range(1,len(nums)):
-            if nums[i]!=nums[i-1]:
+            if nums[i]!=nums[k-1]:
                 nums[k]=nums[i]
                 k+=1
         return k

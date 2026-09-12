@@ -2,9 +2,7 @@
 t=int(input())
 for _ in range(t):
     n=int(input())
-    a=list(map(int,input().split()))
-    for i in range(n - 1, -1, -1):
-        if a[i] != 0:
-            print(i)
-            break
-    
+    s=input().split()
+    start38_count=s.count("START38")
+    ltime_count=s.count("LTIME108")
+    print(start38_count,ltime_count)

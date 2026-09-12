@@ -38,15 +38,16 @@ Explanation: Note that the values of nums are not necessarily unique.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 26 ms (beats 93.94%)  
-**Memory:** 26.4 MB (beats 82.30%)  
-**Submitted:** 2026-09-02T05:37:51.682Z  
+**Runtime:** 20 ms (beats 98.34%)  
+**Memory:** 26 MB (beats 98.22%)  
+**Submitted:** 2026-09-12T12:26:16.425Z  
 
 ```py
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         nums.sort()
         return nums
+        
         
 ```
 

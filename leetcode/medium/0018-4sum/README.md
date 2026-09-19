@@ -41,9 +41,9 @@ Output: [[2,2,2,2]]
 ## Solution
 
 **Language:** Python  
-**Runtime:** 396 ms (beats 60.59%)  
-**Memory:** 19.4 MB (beats 21.10%)  
-**Submitted:** 2026-09-18T16:54:01.744Z  
+**Runtime:** 355 ms (beats 82.90%)  
+**Memory:** 19.4 MB (beats 55.57%)  
+**Submitted:** 2026-09-19T16:28:21.133Z  
 
 ```py
 class Solution:

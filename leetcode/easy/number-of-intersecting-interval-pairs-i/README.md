@@ -61,8 +61,8 @@ There are no intersecting interval pairs. Hence, the answer is 0.
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.3 MB  
-**Submitted:** 2026-09-20T03:44:37.957Z  
+**Memory:** 19.4 MB  
+**Submitted:** 2026-09-20T03:44:44.152Z  
 
 ```py
 class Solution:

@@ -8,5 +8,5 @@ class Solution:
                 s2,e2=intervals[j]
                 if max(s1,s2)<=min(e1,e2):
                     c+=1
-            return c
+        return c
         

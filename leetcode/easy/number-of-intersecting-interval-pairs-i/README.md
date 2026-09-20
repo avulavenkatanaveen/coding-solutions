@@ -61,8 +61,8 @@ There are no intersecting interval pairs. Hence, the answer is 0.
 
 **Language:** Python  
 **Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-09-20T03:44:22.400Z  
+**Memory:** 19.3 MB  
+**Submitted:** 2026-09-20T03:44:37.957Z  
 
 ```py
 class Solution:
@@ -75,7 +75,7 @@ class Solution:
                 s2,e2=intervals[j]
                 if max(s1,s2)<=min(e1,e2):
                     c+=1
-            return c
+        return c
         
 ```
 

@@ -66,14 +66,15 @@ Chef can work on minutes $1, 2, 4, 5, 7$ to put up the net; so the answer is $7$
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T15:20:29.107Z  
+**Submitted:** 2026-09-23T15:21:52.214Z  
 
 ```py
 # cook your dish here
 t=int(input())
 for _ in range(t):
     n,k=map(int,input().split())
-    
+    ans=n+(n-1)//(k-1)
+    print(ans)
 ```
 
 ---

@@ -56,25 +56,31 @@ Explanation: The original array was [11,13,15,17] and it was rotated 4 times.
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.4 MB (beats 26.43%)  
-**Submitted:** 2026-09-07T09:10:39.422Z  
+**Memory:** 14.3 MB (beats 11.34%)  
+**Submitted:** 2026-09-24T13:59:27.847Z  
 
-```py
-class Solution:
-    def findMin(self, nums: List[int]) -> int:
-        left=0
-        right=len(nums)-1
-        while left<right:
-            mid=(left+right)//2
-            if nums[mid]<nums[right]:
-                right=mid
-            else:
-                left=mid+1
-        return nums[left]
-
+```cpp
+class Solution {
+public:
+    int findMin(vector<int>& nums) {
+        int left=0;
+        int right=nums.size()-1;
         
+        while (left<right){
+            int mid=(left+right)/2;
+            if (nums[mid]<nums[right]){
+                right=mid;
+            } else{
+                left=mid+1;
+            }
+        }
+        
+        return nums[left];
+        
+    }
+};
 ```
 
 ---

@@ -52,19 +52,26 @@ Output: [0,1]
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 1707 ms (beats 29.25%)  
-**Memory:** 19.6 MB (beats 95.37%)  
-**Submitted:** 2026-09-23T15:30:53.384Z  
+**Language:** C++  
+**Runtime:** 47 ms (beats 12.89%)  
+**Memory:** 14.1 MB (beats 76.46%)  
+**Submitted:** 2026-09-24T13:49:01.593Z  
 
-```py
-class Solution:
-    def twoSum(self, nums, target):
-        for i in range(len(nums)):
-            for j in range(i + 1, len(nums)):
-                if nums[i] + nums[j] == target:
-                    return [i, j]
+```cpp
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        for(int i=0;i<nums.size();i++){
+            for(int j=i+1;j<nums.size();j++){
+                if(nums[i]+nums[j]==target){
+                    return {i,j};
+                }
+            }
+        }
         
+    return{};
+    }
+};
 ```
 
 ---

@@ -51,40 +51,48 @@ Explanation: The only possible triplet sums up to 0.
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 678 ms (beats 28.47%)  
-**Memory:** 22.4 MB (beats 18.22%)  
-**Submitted:** 2026-09-14T16:01:21.519Z  
+**Language:** C++  
+**Runtime:** 44 ms (beats 73.29%)  
+**Memory:** 29.1 MB (beats 72.88%)  
+**Submitted:** 2026-09-24T13:54:09.795Z  
 
-```py
-class Solution:
-    def threeSum(self, nums: list[int]) -> list[list[int]]:
-        nums.sort()
-        ans=[]
-        for i in range(len(nums)-2):
-            if i>0 and nums[i]==nums[i-1]:
-                continue
-            j=i+1
-            k=len(nums)-1
-            while j<k:
-                total=nums[i]+nums[j]+nums[k]
-                if total==0:
-                    ans.append([nums[i],nums[j],nums[k]])
-                    j+=1
-                    k-=1
-                    while j<k and nums[j]==nums[j-1]:
-                        j+=1
-                    while j<k and nums[k]==nums[k+1]:
-                        k-=1
-                elif total<0:
-                    j+=1
-                else:
-                    k-=1
-        return ans
-
+```cpp
+class Solution {
+public:
+    vector<vector<int>> threeSum(vector<int>& nums) {
+        sort(nums.begin(), nums.end());
+        vector<vector<int>> ans;
+        int n = nums.size();
         
-        
-        
+        for (int i = 0; i < n - 2; ++i) {
+            if (i > 0 && nums[i] == nums[i - 1]) {
+                continue;
+            }
+            int j = i + 1;
+            int k = n - 1;
+            
+            while (j < k) {
+                int total = nums[i] + nums[j] + nums[k];
+                if (total == 0) {
+                    ans.push_back({nums[i], nums[j], nums[k]});
+                    ++j;
+                    --k;
+                    while (j < k && nums[j] == nums[j - 1]) {
+                        ++j;
+                    }
+                    while (j < k && nums[k] == nums[k + 1]) {
+                        --k;
+                    }
+                } else if (total < 0) {
+                    ++j;
+                } else {
+                    --k;
+                }
+            }
+        }
+        return ans;
+    }
+};
 ```
 
 ---

@@ -53,24 +53,31 @@ If no such index exists, return `-1`.
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 3 ms (beats 58.41%)  
-**Memory:** 19.2 MB (beats 67.07%)  
-**Submitted:** 2026-09-24T13:11:41.175Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 30.9 MB (beats 81.66%)  
+**Submitted:** 2026-09-24T13:41:59.054Z  
 
-```py
-class Solution:
-    def smallestIndex(self, nums: List[int]) -> int:
-        for i,x in enumerate(nums):
-            s=0
-            while x>0:
-                x,r=divmod(x,10)
-                s+=r
-            if s==i:
-                return i
-        return -1
+```cpp
+class Solution {
+public:
+    int smallestIndex(vector<int>& nums) {
+        for(int i=0;i<nums.size();i++){
+            int x=nums[i];
+            int s=0;
+            while(x>0){
+                s+=x%10;
+                x/=10;
+            }
+            if(s==i)
+            return i;
 
+        }
         
+    
+    return -1;
+    }
+};
 ```
 
 ---

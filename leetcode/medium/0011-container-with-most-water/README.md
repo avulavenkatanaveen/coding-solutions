@@ -41,28 +41,31 @@ Output: 1
 
 ## Solution
 
-**Language:** Python  
-**Runtime:** 60 ms (beats 39.43%)  
-**Memory:** 29.6 MB (beats 37.78%)  
-**Submitted:** 2026-08-21T15:55:45.298Z  
+**Language:** C++  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 63 MB (beats 48.60%)  
+**Submitted:** 2026-09-25T15:36:37.698Z  
 
-```py
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
-        l=0
-        r=len(height)-1
-        max_water=0
-        while l<r:
-            c=min(height[l],height[r])*(r-l)
-            max_water=max(max_water,c)
-
-            if height[l]<height[r]:
-                l+=1
-            else:
-                r-=1
-        return max_water
+```cpp
+class Solution {
+public:
+    int maxArea(vector<int>& height) {
+        int l=0;
+        int r=height.size()-1;
+        int max_water=0;
         
-        
+        while (l<r){
+            int c=std::min(height[l], height[r]) * (r - l);
+            max_water=std::max(max_water,c);
+            if (height[l]<height[r]){
+                l++;
+            } else {
+                r--;
+            }
+        }
+        return max_water;   
+    }
+};
 ```
 
 ---

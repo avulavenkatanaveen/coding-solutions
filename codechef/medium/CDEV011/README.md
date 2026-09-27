@@ -4,53 +4,16 @@
 
 ## Problem
 
-### Valid Code Block Usage
-
-Which of the following C code snippets correctly defines the `main` function with a code block?
-
- **Option 1:** 
-
-```
-main()
-    printf("Hello!");
-
-```
-
- **Option 2:** 
-
-```
-main() {
-    printf("Hello!");
-}
-
-```
-
- **Option 3:** 
-
-```
-main() [
-    printf("Hello!");
-]
-
-```
-
- **Option 4:** 
-
-```
-main {
-    printf("Hello!");
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T15:14:56.154Z  
+**Submitted:** 2026-09-27T15:14:36.453Z  
 
-```cpp
+```c_cpp
 #include <stdio.h> // Include standard input-output library
 
 int main() {

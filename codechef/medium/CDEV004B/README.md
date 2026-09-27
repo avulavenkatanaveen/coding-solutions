@@ -4,26 +4,21 @@
 
 ## Problem
 
-### Hello World!!
-- It’s time for your first C Hello World program.
-- Complete the code to print Hello World!! in C, and don’t forget to submit it.
+_Description not available._
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T15:13:19.350Z  
+**Submitted:** 2026-09-27T15:12:37.226Z  
 
 ```c_cpp
 #include <stdio.h> // Include the standard input-output library
 
 // Main function with an explicit return type
 int main() {
-    
-    // Write your code here
-    printf("Hello World!!");
-    
+    printf("Welcome to C programming!"); // Print a welcome message
     return 0;
 }
 ```

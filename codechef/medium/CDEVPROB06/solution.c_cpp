@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    
+    // Declare an integer variable for quantity
+    int x=50;
+    
+    // Print the quantity
+    printf("Product Quantity: %d",x);
+    
+    return 0;
+}

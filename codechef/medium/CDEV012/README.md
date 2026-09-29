@@ -20,7 +20,7 @@ January, February, March, April
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T15:25:19.224Z  
+**Submitted:** 2026-09-29T16:10:18.187Z  
 
 ```c_cpp
 #include <stdio.h> // For input and output operations

@@ -14,7 +14,7 @@
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-27T15:12:33.814Z  
+**Submitted:** 2026-09-29T16:12:03.617Z  
 
 ```c_cpp
 #include <stdio.h> // Include the standard input-output library

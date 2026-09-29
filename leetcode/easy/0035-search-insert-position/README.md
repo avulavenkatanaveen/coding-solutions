@@ -45,27 +45,33 @@ Output: 4
 
 ## Solution
 
-**Language:** Python  
+**Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.9 MB (beats 81.75%)  
-**Submitted:** 2026-09-14T15:36:44.019Z  
+**Memory:** 13.6 MB (beats 44.74%)  
+**Submitted:** 2026-09-29T16:08:00.428Z  
 
-```py
-class Solution:
-    def searchInsert(self, nums: List[int], target: int) -> int:
-        low=0
-        high=len(nums)-1
-        while low<=high:
-            mid=(low+high)//2
-            if nums[mid]==target:
-                return mid
-            elif nums[mid]>target:
-                high=mid-1
-            else:
-                low=mid+1
-        return low
+```cpp
+class Solution {
+public:
+    int searchInsert(vector<int>& nums, int target) {
+        int low = 0;
+        int high = nums.size() - 1;
         
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            if (nums[mid] == target) {
+                return mid;
+            } else if (nums[mid] > target) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
         
+        return low;
+    }
+};
 ```
 
 ---

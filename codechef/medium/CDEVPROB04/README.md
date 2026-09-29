@@ -4,16 +4,24 @@
 
 ## Problem
 
-_Description not available._
+### Variable Assignment
+
+Fill in the blank to correctly assign the value `50` to an integer variable named `score` in C.
+
+```
+int score;
+___________;
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T16:12:50.411Z  
+**Submitted:** 2026-09-29T16:13:09.537Z  
 
-```c_cpp
+```cpp
 #include <stdio.h>
 
 int main() {

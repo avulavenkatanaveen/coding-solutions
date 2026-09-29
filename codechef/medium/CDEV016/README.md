@@ -4,16 +4,51 @@
 
 ## Problem
 
-_Description not available._
+### Choose the Correct Code
+
+Which of the following snippets correctly use comments in C?
+
+ **A.** 
+
+```
+// Display the months
+printf("January February March April");
+
+```
+
+ **B.** 
+
+```
+/ *Display the months* /
+printf("January February March April");
+
+```
+
+ **C.** 
+
+```
+// Single-line
+/ *Multi-line comment* /
+printf("January February March April");
+
+```
+
+ **D.** 
+
+```
+/ Display the months /
+printf("January February March April");
+
+```
 
 ## Solution
 
-**Language:** c_cpp  
+**Language:** C++  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-29T16:10:54.957Z  
+**Submitted:** 2026-09-29T16:11:31.206Z  
 
-```c_cpp
+```cpp
 #include <stdio.h> // For input and output functions
 
 int main() {

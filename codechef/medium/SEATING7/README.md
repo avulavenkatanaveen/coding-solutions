@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:33:34.173Z  
+**Submitted:** 2026-09-30T15:40:52.748Z  
 
 ```py
 # cook your dish here
@@ -69,9 +69,9 @@ for _ in range(t):
     for _ in range(k):
         while s in lst:
             s+=1
-            r.append(s)
-            lst.add(s)
-            s+=1
+        r.append(s)
+        lst.add(s)
+        s+=1
     print(*r)
 ```
 

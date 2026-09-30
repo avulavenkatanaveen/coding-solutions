@@ -58,14 +58,13 @@ Explanation: Bob and George both have a condition that starts with DIAB1.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 419 ms (beats 73.59%)  
-**Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-09-30T05:56:21.891Z  
+**Runtime:** 65 ms  
+**Memory:** 0B  
+**Submitted:** 2026-09-30T05:56:43.325Z  
 
 ```sql
 # Write your MySQL query statement below
-SELECT patient_id, patient_name, conditions
-FROM Patients
+SELECT * FROM Patients
 WHERE conditions LIKE 'DIAB1%' OR conditions LIKE '% DIAB1%'
 ```
 

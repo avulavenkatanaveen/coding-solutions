@@ -11,4 +11,4 @@ for _ in range(t):
             r.append(s)
             lst.add(s)
             s+=1
-    print(*(r))
+    print(*r)

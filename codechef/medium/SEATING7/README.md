@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:26:38.767Z  
+**Submitted:** 2026-09-30T15:32:53.489Z  
 
 ```py
 # cook your dish here
@@ -65,12 +65,13 @@ for _ in range(t):
     n,m,k=map(int,input().split())
     lst=set(map(int,input().split()))
     r=[]
+    s=1
     for _ in range(k):
-        seat=1
-        while seat in r:
-            seat+=1
-            lst.add(seat)
-            r.append(seat)
+        while s in lst:
+            s+=1
+            r.append(s)
+            lst.add(s)
+            s+=1
     print(*(r))
 ```
 

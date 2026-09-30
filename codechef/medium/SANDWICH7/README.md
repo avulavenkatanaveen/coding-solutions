@@ -57,12 +57,12 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T14:50:31.095Z  
+**Submitted:** 2026-09-30T14:51:35.799Z  
 
 ```py
 # cook your dish here
 b,h,c=map(int,input().split())
-c=min((b/2),h+c)
+c=min((b//2),h+c)
 print(c)
 
 ```

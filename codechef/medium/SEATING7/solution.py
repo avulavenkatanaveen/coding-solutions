@@ -4,10 +4,11 @@ for _ in range(t):
     n,m,k=map(int,input().split())
     lst=set(map(int,input().split()))
     r=[]
+    s=1
     for _ in range(k):
-        seat=1
-        while seat in r:
-            seat+=1
-            lst.add(seat)
-            r.append(seat)
+        while s in lst:
+            s+=1
+            r.append(s)
+            lst.add(s)
+            s+=1
     print(*(r))

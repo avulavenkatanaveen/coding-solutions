@@ -56,7 +56,7 @@ Output
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T15:32:53.489Z  
+**Submitted:** 2026-09-30T15:33:34.173Z  
 
 ```py
 # cook your dish here
@@ -72,7 +72,7 @@ for _ in range(t):
             r.append(s)
             lst.add(s)
             s+=1
-    print(*(r))
+    print(*r)
 ```
 
 ---

@@ -8,7 +8,7 @@ for _ in range(t):
     for _ in range(k):
         while s in lst:
             s+=1
-            r.append(s)
-            lst.add(s)
-            s+=1
+        r.append(s)
+        lst.add(s)
+        s+=1
     print(*r)

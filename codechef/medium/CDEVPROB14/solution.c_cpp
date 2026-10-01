@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a long variable to store a large bank account number
+    long accountNumber = 9876543210;
+
+    // Print the value of the bank account number
+    printf("Bank Account Number: %ld", accountNumber);
+
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a short variable for weight and assign it the value 70
+    int t=175;
+    int a=70;
+    printf("Height:%d",t);
+    printf("Weight:%d",a);
+    // Declare an integer variable for height and assign it the value 175
+    
+    // Print: "Height: " followed by the value of height
+    
+    // Print: "Weight: " followed by the value of weight
+
+    return 0;
+}

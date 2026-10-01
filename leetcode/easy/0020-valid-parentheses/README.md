@@ -55,8 +55,8 @@ An input string is valid if:
 
 **Language:** Python  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.2 MB (beats 62.89%)  
-**Submitted:** 2026-08-20T16:20:21.785Z  
+**Memory:** 19.3 MB (beats 24.83%)  
+**Submitted:** 2026-10-01T17:03:05.933Z  
 
 ```py
 class Solution:

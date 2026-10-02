@@ -1,11 +1,18 @@
 #include <stdio.h>
 
 int main() {
-    // Declare a long variable to store the total distance
-    int total_distance=360590000; // Variable declaration and assignment
-
-    // Print the total distance traveled
-    printf("Total distance traveled:%d km", total_distance); // Use %ld to print long variable
-
+    // Declare an int variable for a portion of the balance (in millions)
+    // Represent 500 million 
+    int x=500;
+    int y=10000000;
+    // Declare a long variable for the total bank balance and assign it the value 10000000
+    
+    printf("Balance in millions: %d million",x);
+    // Print the value of millions portion
+    printf("Total Bank Balance: %d millions",y);
+    
+    // Print the total bank balance
+    
+    
     return 0;
 }

@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Declare double variable for the original price 
+    double originalPrice = 1678.99123340;
+    
+    // Declare float varaible for the discounted price
+    float discountedPrice = 1600.00f;
+
+    // Print the original price
+    printf("Original Price: %lf\n", originalPrice);
+    
+    // Print the discounted price
+    printf("Discounted Price: %f\n", discountedPrice);
+
+    return 0;
+}

@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    // Declare an int variable for a portion of the balance (in millions)
+    // Represent 500 million 
+    int x=500;
+    int y=10000000;
+    // Declare a long variable for the total bank balance and assign it the value 10000000
+    
+    printf("Balance in millions: %d million",x);
+    // Print the value of millions portion
+    printf("Total Bank Balance: %d millions",y);
+    
+    // Print the total bank balance
+    
+    
+    return 0;
+}

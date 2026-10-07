@@ -47,9 +47,9 @@ You need to output 2.
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms  
-**Memory:** 19.4 MB  
-**Submitted:** 2026-10-07T12:49:00.392Z  
+**Runtime:** 30 ms (beats 11.34%)  
+**Memory:** 22 MB (beats 70.34%)  
+**Submitted:** 2026-10-07T12:49:07.353Z  
 
 ```py
 class Solution:

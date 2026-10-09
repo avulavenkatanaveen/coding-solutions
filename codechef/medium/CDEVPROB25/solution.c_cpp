@@ -1,10 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    // Declare a char variable to store the first letter of a day
-    char day='w'; // For example, 'W' for Wednesday
+    // Declare and initialize student details
+    char grade='B';
+    int student_id=20231;
+    short section_number=12;
     
-    printf("The letter is %c and the day is Wednesday",day); // Print the name of the day
-    
+
+    // Print student details
+    printf("Student Grade: %c\n",grade);
+    printf("Student ID: %d\n",student_id);
+    printf("Section Number: %hd\n",section_number);
+
     return 0;
 }

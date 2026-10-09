@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a char variable to store the first letter of a day
+    char day='w'; // For example, 'W' for Wednesday
+    
+    printf("The letter is %c and the day is Wednesday",day); // Print the name of the day
+    
+    return 0;
+}

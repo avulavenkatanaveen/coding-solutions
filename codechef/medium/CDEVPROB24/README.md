@@ -20,7 +20,7 @@ The letter is W and the day is Wednesday
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-08T18:28:30.386Z  
+**Submitted:** 2026-10-09T15:38:09.482Z  
 
 ```c_cpp
 #include <stdio.h>

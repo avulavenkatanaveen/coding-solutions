@@ -63,10 +63,14 @@ Chef can buy $3$ blue pens for a cost of $30$.
 **Language:** Python  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T14:53:35.545Z  
+**Submitted:** 2026-10-14T14:56:52.468Z  
 
 ```py
 # cook your dish here
+a,b=map(int,input().split())
+coast1=a*3
+coast2=a+b
+print(min(coast1,coast2))
 
 ```
 

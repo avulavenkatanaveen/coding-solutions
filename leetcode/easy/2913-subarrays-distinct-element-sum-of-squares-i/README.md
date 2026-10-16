@@ -54,9 +54,9 @@ The sum of the squares of the distinct counts in all subarrays is equal to 12 + 
 ## Solution
 
 **Language:** Python  
-**Runtime:** 21 ms (beats 62.15%)  
+**Runtime:** 18 ms (beats 87.38%)  
 **Memory:** 19.2 MB (beats 91.08%)  
-**Submitted:** 2026-10-15T11:49:41.385Z  
+**Submitted:** 2026-10-15T11:49:45.360Z  
 
 ```py
 class Solution:

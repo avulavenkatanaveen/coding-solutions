@@ -23,7 +23,7 @@ Question 4 has 'a' as an answer
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-19T15:17:10.098Z  
+**Submitted:** 2026-10-20T15:34:04.353Z  
 
 ```c_cpp
 #include <stdio.h> // Including the standard I/O library to use printf for output

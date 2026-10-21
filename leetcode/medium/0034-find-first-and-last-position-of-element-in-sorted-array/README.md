@@ -48,9 +48,9 @@ Output: [-1,-1]
 ## Solution
 
 **Language:** Python  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 20.5 MB (beats 91.17%)  
-**Submitted:** 2026-09-07T08:21:17.594Z  
+**Runtime:** 1 ms (beats 4.34%)  
+**Memory:** 20.1 MB (beats 99.90%)  
+**Submitted:** 2026-10-21T15:54:40.734Z  
 
 ```py
 class Solution:

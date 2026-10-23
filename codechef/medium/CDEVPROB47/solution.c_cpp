@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Declare double variable for total price of the box
+    double total_price = 9999.9999;
+
+    // Declare an int variable to store the total price of the box
+    int converted_price;
+
+    // Perform explicit type conversion to int for rounding off
+    converted_price = (int) total_price;;
+
+    // Print the total price in int
+    printf("Converted Total Price (int): %d", converted_price);
+
+    return 0;
+}
